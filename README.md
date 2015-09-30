@@ -43,7 +43,7 @@ Apple users/Mamp.. You will need to point in  your terminal to the version of PH
  ( where 5.5.18 would be the version of php running in your mamp application)
 ```nano .bash_profile```
 (The above will pop up a little dos like window)
-```export MAMP_PHP=/Applications/MAMP/bin/php/php5.5.18/bin```
+```	export MAMP_PHP=/Applications/MAMP/bin/php/php5.5.18/bin```
 ```export PATH="$MAMP_PHP:$PATH"```
 Download the project from the above github repository
 Be sure to move the project folder into yout htdocs folder inside the MAMP application
